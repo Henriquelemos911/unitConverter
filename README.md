@@ -69,3 +69,7 @@ If you use VS Code, there are some settings in the `.vscode` folder to help with
 - A debug configuration using GDB
 
 These settings are optional and not required to run the project — you can compile and run manually through the terminal, as shown above.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
