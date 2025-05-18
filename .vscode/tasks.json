@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Projeto C++",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-Iinclude",
+          "main.cpp",
+          "src/DistanceConverter.cpp",
+          "src/TemperatureConverter.cpp",
+          "src/WeightConverter.cpp",
+          "-o",
+          "bin/main"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  

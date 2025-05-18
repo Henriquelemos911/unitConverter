@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Executar Projeto C++",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/bin/main",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Habilitar formatação para gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "Build Projeto C++",
+        "miDebuggerPath": "/usr/bin/gdb"
+      }
+    ]
+  }
+  
