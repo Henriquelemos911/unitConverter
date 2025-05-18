@@ -5,7 +5,7 @@
 ## 🚀 Features
 
 - Converts units of Distance, Temperature, and Weight.
-- Organized code across multiple C++ files.
+- Organized code across multiple C++ files and class.
 - Easy compilation using g++ either via VS Code tasks or manually through the terminal.
 
 ## 🧑‍💻 Technologies Used
