@@ -1,15 +1,14 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#include <cstdlib>  // pra usar system()
+#include <cstdlib>
 
-// Função para limpar a tela
 inline void clearScreen() {
 #ifdef _WIN32
-    system("cls");  // Windows
+    system("cls");
 #else
-    system("clear");  // Linux ou Mac
+    system("clear");
 #endif
 }
 
-#endif // UTILS_H
+#endif
