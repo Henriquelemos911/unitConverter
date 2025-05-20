@@ -12,7 +12,7 @@
 
 - C++ (iostream, etc.)
 - g++ Compiler
-- GDB Debugger (for VS Code users)
+- CMake
 
 ## 📋 How to Run
 
