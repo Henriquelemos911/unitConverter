@@ -1,0 +1,3 @@
+/home/henrique/Downloads/unitConverter/build/CMakeFiles/main.dir
+/home/henrique/Downloads/unitConverter/build/CMakeFiles/edit_cache.dir
+/home/henrique/Downloads/unitConverter/build/CMakeFiles/rebuild_cache.dir
