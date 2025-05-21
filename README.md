@@ -2,73 +2,73 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🚀 Features
+## Features
 
-- Converts units of Distance, Temperature, and Weight.
-- Organized code across multiple C++ files and class.
-- Easy compilation using g++ either via VS Code tasks or manually through the terminal.
+- Convert units in Distance, Temperature, and Weight categories.
+- Clean and modular code using classes and separate files.
+- Easy compilation using either `g++` or `CMake`.
+- Works on Linux and Windows (via MinGW).
 
-## 🧑‍💻 Technologies Used
+## Technologies Used
 
-- C++ (iostream, etc.)
+- C++ (Standard Library)
 - g++ Compiler
 - CMake
 
-## 📋 How to Run
+## How to Compile and Run
 
-### 🐧 On Linux:
+### On Linux
 
-1. Make sure g++ is installed:
-   ```
+1. Make sure you have g++ installed:
+   ```bash
    sudo apt update
    sudo apt install g++
    ```
 
 2. Navigate to the project folder:
-   ```
-   cd /path/to/your/project
+   ```bash
+   cd /path/to/unitConverter
    ```
 
-3. Compile using the command:
-   ```
+3. Compile using g++:
+   ```bash
    g++ -Iinclude main.cpp src/DistanceConverter.cpp src/TemperatureConverter.cpp src/WeightConverter.cpp -o bin/main
    ```
 
 4. Run the program:
-   ```
+   ```bash
    ./bin/main
    ```
 
-### 🪟 On Windows (with MinGW):
+### On Windows (MinGW)
 
-1. Install MinGW and add it to your system PATH.  
-   (If you don't have it, download from: https://www.mingw-w64.org/)
+1. Install MinGW and add it to your system PATH.
 
-2. Open CMD or PowerShell.
-
-3. Navigate to the project folder:
-   ```
-   cd C:\path\to\your\project
+2. Open the Command Prompt and navigate to your project folder:
+   ```cmd
+   cd C:\path\to\unitConverter
    ```
 
-4. Compile using:
-   ```
-   g++ -Iinclude main.cpp src/DistanceConverter.cpp src/TemperatureConverter.cpp src/WeightConverter.cpp -o bin\main.exe
+3. Compile using g++:
+   ```cmd
+   g++ -Iinclude main.cpp src\DistanceConverter.cpp src\TemperatureConverter.cpp src\WeightConverter.cpp -o bin\main.exe
    ```
 
-5. Run the program:
-   ```
+4. Run the program:
+   ```cmd
    bin\main.exe
    ```
 
-## ⚙️ About VS Code Settings
+## Example Usage
 
-If you use VS Code, there are some settings in the `.vscode` folder to help with compiling and debugging the project, such as:
+```text
+Enter the value to convert: 100
+Select the unit to convert from: meters
+Select the unit to convert to: kilometers
+Result: 0.1 kilometers
+```
 
-- A task to build the project automatically with g++
-- A debug configuration using GDB
-
-These settings are optional and not required to run the project — you can compile and run manually through the terminal, as shown above.
+---
 
 ## 📄 License
 
