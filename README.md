@@ -1,6 +1,8 @@
 # Unit Converter
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![C++](https://img.shields.io/badge/C%2B%2B-Programming-orange.svg)  ![OOP](https://img.shields.io/badge/Object--Oriented%20Programming-green.svg)
+
 
 ## Features
 
